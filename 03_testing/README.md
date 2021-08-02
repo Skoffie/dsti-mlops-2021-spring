@@ -2,7 +2,7 @@
 
 Now we know how to version the data, the models, the environment and how link it to the source code. But we don't know it the data is what we expect and if the code behaves as it should. Let's write some tests!
 
-**Objective:**
+**Objectives:**
 
 - Learn how to define a test function and how to write an assertion.
 - Learn the approach to data testing.
