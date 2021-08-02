@@ -1,6 +1,6 @@
 ## 1. Data versioning with DVC
 
-**Objective:**
+**Objectives:**
 
 - Learn how to version a dataset 
 - Learn how to use a specific version of a data in your code
@@ -124,6 +124,7 @@ If you go to the remote storage, you will see the file appearing inside. The nam
 The correspondence between the original (human readable) name and the DVC-generated name is saved in the metadata. If we lose it, we will lose the linkage. Therefore, we need to version/track the metadata with Git.
 
 ```bash
+# Chenge the link with the link to your own repository (make sure to keep .git at the end!)
 git remote add origin https://github.com/pkaferle/mlops.git
 git remote -v
 git branch -M main 
@@ -201,3 +202,6 @@ print(data)
 ```
 
 **Exercise:** Access a specific version of the dataset. 
+
+**External link:**
+- video [Data Versioning and Reproducible ML with DVC and MLflow](https://www.youtube.com/watch?v=W2DvpCYw22o)
