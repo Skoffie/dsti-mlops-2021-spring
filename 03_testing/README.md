@@ -10,7 +10,9 @@ Now we know how to version the data, the models, the environment and how link it
 
 **Dependencies:**
 
-- notebooks: `testing_initial.ipynb`, `testing_final.ipynb`
+- notebooks:
+  - exercises (start with this one): `testing_initial.ipynb`
+  - solutions (check out if you're stuck): `testing_final.ipynb`
 - dataset: `wine_synthetic.csv`
 - install: `pip install -U pytest`, `pip install pandas-profiling`, `pip install ipywidgets`, `pip install ipytest` (the last one you need only if you want to run pytest in a notebook)
 
