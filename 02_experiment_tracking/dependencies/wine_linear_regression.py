@@ -79,9 +79,6 @@ def train(in_alpha=0.3, in_l1_ratio=0.5):
         outfile.write("  MAE: %s" % mae)
         outfile.write("  R2: %s" % r2)
 
-if __name__ == '__main__':
-    train()
-
 # COMMAND ----------
 
 
