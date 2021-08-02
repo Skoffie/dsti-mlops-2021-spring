@@ -5,6 +5,8 @@
   `conda create --name env_mlops python=3.9`
 - activate the virtual environment:
   `conda activate env_mlops`
+- install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- create GitHub account
 
 How do you know what environment is activated?
 
