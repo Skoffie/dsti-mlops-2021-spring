@@ -27,4 +27,4 @@ Dependencies:
 **External links:**
 
 - article [Experiment tracking with MLflow on Databricks Community Edition](https://www.adaltas.com/en/2020/09/10/databricks-community-edition-mlflow/)
-- [how to install open source MLflow on your system](MLflow tutorial: an open source Machine Learning (ML) platform)
+- article [MLflow tutorial: an open source Machine Learning (ML) platform](https://www.adaltas.com/en/2020/03/23/mlflow-open-source-ml-platform-tutorial/)
