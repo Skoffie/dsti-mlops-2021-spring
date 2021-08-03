@@ -23,3 +23,8 @@ Dependencies:
 6. Test the different parameters of the model
 7. Change the model to Random Forest
 8. Track some more experiments and compare the results
+
+**External links:**
+
+- article [Experiment tracking with MLflow on Databricks Community Edition](https://www.adaltas.com/en/2020/09/10/databricks-community-edition-mlflow/)
+- [how to install open source MLflow on your system](MLflow tutorial: an open source Machine Learning (ML) platform)
