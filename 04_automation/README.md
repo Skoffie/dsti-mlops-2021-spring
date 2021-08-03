@@ -62,7 +62,7 @@ jobs:
 ```
         run: |
           pip install -r requirements.txt
-          python wine_linear_regression.py
+          python wine_linear_regression_test.py
           cat metrics.txt
 ```
 
