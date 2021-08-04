@@ -149,8 +149,34 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=9696)
 ```
 
-5. We installed some additional packages (Flask, gunicorn), so we need to update the requirements file. The easiest and the most complete way to do it is by running `pip freeze > requirements.txt`. Make sure that `env_wine_app` is activated before you do it.
-6. Initialize `wine_app` as git repository and commit all files.
+5. We installed some additional packages (Flask, gunicorn), so we need to update the requirements file. The easiest and the most complete way to do it is by running `pip freeze > requirements.txt`. You can also copy the list frpm below. Make sure that `env_wine_app` is activated before you do it.
+
+```
+certifi==2021.5.30
+charset-normalizer==2.0.4
+click==8.0.1
+Flask==2.0.1
+gunicorn==20.1.0
+idna==3.2
+itsdangerous==2.0.1
+Jinja2==3.0.1
+joblib==1.0.1
+MarkupSafe==2.0.1
+numpy==1.21.1
+pandas==1.3.1
+python-dateutil==2.8.2
+pytz==2021.1
+requests==2.26.0
+scikit-learn==0.24.2
+scipy==1.7.1
+six==1.16.0
+sklearn==0.0
+threadpoolctl==2.2.0
+urllib3==1.26.6
+Werkzeug==2.0.1
+```
+
+7. Initialize `wine_app` as git repository and commit all files.
 
 ```bash
 $ git init 
