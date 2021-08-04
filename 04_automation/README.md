@@ -37,7 +37,7 @@ numpy
 
 3. Sign in to your GitHub account
 4. Create new repo: `cicd`
-5. Manually upload `requirements.txt` and `wine_linear_regression.py` 
+5. Manually upload `requirements.txt` and `wine_linear_regression_test.py` 
 6. Make new config file: `cicd/.github/workflows/model_evaluation.yaml` and copy inside the following text
 
 ```
