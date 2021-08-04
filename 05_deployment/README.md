@@ -43,7 +43,7 @@ def predict_wine_quality(data, model):
 
 1. Create new directory `mkdir wine_app`
 2. Deactivate current virtual environment and create a new one: `conda create --name env_wine_app python=3.9` and activate it 
-3. Copy `requirements.txt` from the previous lab and add `flask` and `gunicorn`.
+3. Copy `requirements.txt` from the previous lab (to `wine_app` directory) and add `flask` and `gunicorn`.
 4. Install the requirements: `pip install -r requirements.txt`
 4. Create `main.py`:
 
